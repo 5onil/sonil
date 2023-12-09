@@ -1,0 +1,32 @@
+@import './base.css';
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,400;0,5..1200,900;1,5..1200,400;1,5..1200,900&display=swap');
+
+#app {
+  font-weight: normal;
+}
+
+a {
+  color: rgb(189, 52, 210);
+  text-decoration: none;
+}
+
+strong {
+  color: #fff;
+  font-weight: normal;
+  background-color: #000;
+  padding: 0 2px;
+}
+
+.container-mid {
+  max-width: 1020px;
+}
+@media (hover: hover) {
+  a:hover {
+    color: rgb(221, 0, 255);
+  }
+}
+
+@media (min-width: 1024px) {
+}
