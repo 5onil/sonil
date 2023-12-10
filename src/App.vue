@@ -1,9 +1,9 @@
 <template>
-  <se-header />
+  <se-top-header />
 </template>
 
 <script setup>
-import SeHeader from './components/Header.vue'
+import SeTopHeader from './components/TopHeader.vue'
 </script>
 
 <style scoped lang="scss"></style>

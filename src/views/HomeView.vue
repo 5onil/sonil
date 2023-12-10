@@ -10,7 +10,7 @@
       </div>
     </div>
     <div class="container-mid projects">
-      <se-projects
+      <se-my-projects
         v-for="project in translations.projects"
         class="project"
         :key="project.id"
@@ -21,9 +21,9 @@
 </template>
 
 <script setup>
-import { onBeforeUnmount, onMounted, onUpdated, ref, watch } from 'vue'
+import { onMounted, ref } from 'vue'
 
-import SeProjects from '../components/Projects.vue'
+import SeMyProjects from '../components/MyProjects.vue'
 import english from '../assets/translations/english.js'
 import IconGentleman from '../components/icons/IconGentleman.vue'
 
