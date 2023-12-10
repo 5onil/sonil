@@ -12,6 +12,7 @@
     <div class="container-mid projects">
       <se-projects
         v-for="project in translations.projects"
+        class="project"
         :key="project.id"
         :translations="project"
       />
@@ -80,7 +81,7 @@ onMounted(() => {
   opacity: 0;
 }
 .container-mid p span :deep(strong.type) {
-  padding: 0 4px;
+  padding: 3px 4px;
   -webkit-animation: focus-in-expand 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   animation: focus-in-expand 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }

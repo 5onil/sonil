@@ -25,19 +25,17 @@ export default {
           {
             id: 1,
             projectHeading: 'Project Map',
-            aboutText:
-              'The project map is a comprehensive resource for information on construction projects in Sweden. The map covers all of Sweden, and users can filter the projects by region, status, and type of project. The map also provides detailed information about each project, including contact information, project description, and planned start and completion dates. The map is a valuable tool for anyone interested in construction projects in Sweden.'
+            aboutText: `The project map is a detailed tool for Swedish construction projects, covering the entire country. Users can filter projects by region, status, and type. It offers comprehensive project details like contact info, descriptions, and planned timelines. It's a valuable resource for those keen on Swedish construction projects`
           },
           {
             id: 2,
             projectHeading: 'Image Carousel',
-            aboutText: `
-            A Vue.js image carousel is a dynamic and interactive component that allows users to seamlessly navigate through a series of images. Developed using Vue's reactivity system, the carousel automatically updates its state as data changes, ensuring seamless transitions between images. It also supports a variety of features, such as autoplay, touch and mouse dragging, and infinity scrolling, providing users with a smooth and engaging viewing experience.`
+            aboutText: `A Vue.js image carousel offers dynamic image browsing with seamless transitions. It utilizes Vue's reactivity for automatic state updates as data changes. Packed with features like autoplay, touch/mouse dragging, and infinity scrolling, it ensures a smooth and engaging viewing experience.`
           },
           {
             id: 3,
             projectHeading: 'Pokemon Memory',
-            aboutText: `Pokémon Memory, a classic matching game, is a delight for both children and adults alike, combining the thrill of memory challenges with the captivating world of Pokémon. Players are presented with an array of Pokémon cards face down, each depicting a popular Pokémon character. The aim of the game is to identify and match pairs of identical Pokémon, relying on their memory to recall the locations of previously revealed cards.`
+            aboutText: `Pokémon Memory is a timeless game loved by all ages, merging memory challenges with the enchanting Pokémon universe. Players explore face-down Pokémon cards, aiming to pair identical characters by recalling previously revealed cards using their memory skills.`
           }
         ]
       }
